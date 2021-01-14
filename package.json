@@ -2,6 +2,9 @@
   "name": "indexeddb-money-watcher",
   "version": "1.0.0",
   "description": "The purpose of this app is to stay with in your",
+  "engines": {
+    "node": "14.15.4"
+  },
   "main": "server.js",
   "dependencies": {
     "compression": "^1.7.4",
