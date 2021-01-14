@@ -1,5 +1,6 @@
 body {
     font-size: 120%;
+    color: white;
     font-family: Arial;
     background-image: url("https://github.com/DevonMartens/IndexedDB-Money-Watcher/blob/main/public/images/noStimCheck.jpg?raw=true");
   }
