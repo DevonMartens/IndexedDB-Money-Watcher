@@ -15,12 +15,12 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-//not set up
+//connect mongodb
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/pwa", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-    useFindAndModify: false
+    useFindAndModify: true
   }
 );
 
