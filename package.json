@@ -1,0 +1,27 @@
+{
+  "name": "indexeddb-money-watcher",
+  "version": "1.0.0",
+  "description": "The purpose of this app is to stay with in your",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevonMartens/IndexedDB-Money-Watcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevonMartens/IndexedDB-Money-Watcher/issues"
+  },
+  "homepage": "https://github.com/DevonMartens/IndexedDB-Money-Watcher#readme"
+}
